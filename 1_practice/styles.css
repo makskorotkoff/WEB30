@@ -1,0 +1,10 @@
+body    {
+    font-weight: bold;
+}
+
+h1, h2 {
+    background-color: black;
+    color: white;
+    margin: 50px 0;
+}
+
