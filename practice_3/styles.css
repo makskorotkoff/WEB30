@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.page {
+    background: linear-gradient(to right, black 0%, #0E0E0D 30%, #0E0E0D 70%, black 100%)
+}
+
+.header {
+    background: url(images/rocket.png);
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position: center;
+    height: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_main, .subheader {
+    width: 900px;
+    background-color: #A93200;
+    padding: 1.5em 10px;
+    color: aliceblue;
+}
+
+.textblock {
+    width: 900px;
+    margin: 0 auto;
+    background-color: aliceblue;
+}
+
+.textblock> h2, p {
+    padding: 1em 10px;
+}
+
+.textblock :last-child {
+    padding-bottom: 30px;
+}
+
+.footer {
+    height: 100px;
+    width: 900px;
+    margin: 0 auto;
+    background-color:  #A93200;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer > * {
+    padding: 0.5em 10px;
+    color: aliceblue;
+}
