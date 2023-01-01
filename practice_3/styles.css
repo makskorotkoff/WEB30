@@ -9,27 +9,22 @@
     background: linear-gradient(to right, black 0%, #0E0E0D 30%, #0E0E0D 70%, black 100%)
 }
 
-.header {
+.main_image {
     background: url(images/rocket.png);
     background-repeat:no-repeat;
-    background-size:contain;
-    background-position: center;
+    background-size:cover;
+    background-position: top;
     height: 1200px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .header_main, .subheader {
-    width: 900px;
+    width: 100%;
     background-color: #A93200;
     padding: 1.5em 10px;
     color: aliceblue;
 }
 
 .textblock {
-    width: 900px;
     margin: 0 auto;
     background-color: aliceblue;
 }
@@ -44,7 +39,6 @@
 
 .footer {
     height: 100px;
-    width: 900px;
     margin: 0 auto;
     background-color:  #A93200;
     display: flex;
