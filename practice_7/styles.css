@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.header, .footer {
+    height: 160px;
+    width: 100%;
+    background-color: #FFE138;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 2em;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px auto;   
+}
+
+.block {
+    margin: 0 2vw;
+    flex-basis: 0%;
+    flex-grow: 1;
+    border: black solid 1px;
+    height: fit-content;
+}
+
+.block * {
+    margin-bottom: 10px;
+}
+
+.block h3, p {
+    padding: 2vw;
+}
+
+.block:last-child {
+    margin-bottom: 0;
+}
+
+.illustration img {
+    width: 100%;
+    display: block;
+}
+
+@media only screen and (min-width: 401px) {
+    .header, .footer {
+        font-size: 3em;
+    }
+
+
+}
+
+
